@@ -1,0 +1,50 @@
+body,html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+nav{
+    border:1px solid black;
+    padding: 8px 30px 20px;
+    position: relative;
+
+}
+
+h1{
+    font-size: 32px;
+}
+
+
+.conteudo{
+    width: 500px;
+    height: 200px;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20%;
+    gap: 100px;
+    align-items: center;
+}
+.excluir {
+    width: 200px;
+}
+.fechar {
+    position:absolute;
+    border-radius: 100%;
+    right: -14px;
+    top: -18px;
+}
+svg {
+    width: 20px;
+    height: 25px;
+    
+}
